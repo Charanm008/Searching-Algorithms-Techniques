@@ -1,5 +1,15 @@
+## 📄 .gitignore
+This project uses a `.gitignore` file to prevent unnecessary and sensitive files 
+(such as build outputs, IDE configs, and system files) from being tracked in Git.
+
+
 # Compiled class file
 *.class
+target/
+
+# IDE files
+.idea/
+.vscode/
 
 # Log file
 *.log
